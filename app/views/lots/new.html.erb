@@ -1,0 +1,6 @@
+<h1>Enter Address</h1>
+<!--<p>Find me in app/views/lots/new.html.erb</p>-->
+<%= form_for(@lot) do |f| %>
+    <%= f.text_field 'address', placeholder: 'Enter Address', class: "form-control" %>
+    <%= f.submit "Create", class: "btn btn-primary" %>
+<% end %>
