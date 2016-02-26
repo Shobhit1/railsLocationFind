@@ -2,4 +2,4 @@
 
 A simple Rails application which takes an address and stores the address with its latitude and longitude on to the mySQL db.
 
-To use this, just clone it and configure the database changes.
+To use this, just clone it and configure the database.
